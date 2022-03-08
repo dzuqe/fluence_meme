@@ -2,7 +2,7 @@
 
 1. What is Aquamarine?
 - A transparent blue-green variety of beryl, used as a gemstone.
-- An environment for EVM compatible smart contracts. -
+- An environment for EVM compatible smart contracts.
 - Aqua manages the definition of workflows whereas marine is a wasm execution environment. [correct]
 
 2. Fluence's business model entails:
@@ -13,7 +13,7 @@
 3. Which programming languages are supported by Fluence?
 - All of them considering the runtime can install compilers for you to write apps.
 - C++, Rust and any other language supported by the emcscripten wasm compiler. Marine is a wasm runtime so any language that compiles to wasm can execute on Marine.
-- You write your applications in the Aqua language which gets compiled into an intermediate representation (AIR). This in turn is executed directly on MarineVM wasm runtime. [correct]
+- You state your workflows via composition of services in the Aqua language which gets compiled into an intermediate representation (AIR). This in turn is executed directly on AquaVM. Services are currently defined in Rust language (with a macro utility) that compiles to wasm and is executed on MarineVM. [correct]
 
 4. Do you need to connect your metamask wallet to use Fluence?
 - Yes
